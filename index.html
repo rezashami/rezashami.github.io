@@ -1,12 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- JavaScript scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Style Sheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7951ec8f30.js" crossorigin="anonymous"></script>
+
+    <!-- Title Section -->
     <title>Reza Shami Tanha </title>
+    <link rel="stylesheet" href="./asset/css/main.css">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="header-ul" class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto">
+                    <li class="header-ul-li nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="header-ul-li nav-item"><a class="nav-link" href="#Research-Interests">Research
+                            Interests</a></li>
+                    <li class="header-ul-li nav-item"><a class="nav-link" href="#Education">Education</a></li>
+                    <li class="header-ul-li nav-item"><a class="nav-link" href="#Courses">Courses </a></li>
+                    <li class="header-ul-li nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                    <li class="header-ul-li nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main-body">
+        <div id="About" class="container-fluid">
+            <div class="row About"
+                style="background-image: url('./asset/img/background-header-technology.jpg'); color: white;">
+                <div class="col-md-12 text-center">
+                    <br>
+                    <br>
+                    <h1>Reza Shami Tanha</h1>
+                    <h4>Deep learning engineer</h4>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-9 col-sm-12 col-xs-12 px-0 brief">
+                    <p style="margin: 20px;">
+                        I'm an M.Sc. student in Computer Science at <a href="https://iasbs.ac.ir"
+                            target="_blank">Institute for Advanced Studies in Basic Sciences
+                            (IASBS)</a>.
+                        My thesis title is firefighting with autonomous UAVs using deep reinforcement learning.
+                        I have a good background in programming. I have worked with several programming languages such
+                        as C++, JavaScript, and Python.
+                        During my studies, I have worked on Android application development with Java programming
+                        language.
+                    </p>
+                </div>
+                <img class="col-md-3 col-sm-12 col-xs-12 profile-pic px-0" src="./asset/img/profile.jpg"
+                    alt="Reza Sham Tanha's Image">
+            </div>
+        </div>
+
+        <div id="Research-Interests" class="container-fluid">
+            <div class="row About"
+                style="background-image: url('./asset/img/background-header-technology.jpg'); color: white;">
+                <div class="col-md-12 text-center">
+                    <br>
+                    <br>
+                    <h1>Research Interests</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Multi agent reinforcement learning</h5>
+                            <p class="card-text">Multi-agent reinforcement learning studies how multiple agents interact
+                                in a common environment.</p>
+                            <a target="_blank"
+                                href="https://towardsdatascience.com/ive-been-thinking-about-multi-agent-reinforcement-learning-marl-and-you-probably-should-be-too-8f1e241606ac"
+                                class="btn mt-auto">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Deep learning</h5>
+                            <p class="card-text">Deep learning (also known as deep structured learning) is part of a
+                                broader family of machine learning methods based on artificial neural networks with
+                                representation learning. Learning can be supervised, semi-supervised or unsupervised.
+                            </p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Deep_learning"
+                                class="btn mt-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Natural language process (NLP)</h5>
+                            <p class="card-text">Natural language processing (NLP) is a subfield of linguistics,
+                                computer science, and artificial intelligence concerned with the interactions between
+                                computers and human language, in particular how to program computers to process and
+                                analyze large amounts of natural language data. The goal is a computer capable of
+                                "understanding" the contents of documents, including the contextual nuances of the
+                                language within them. The technology can then accurately extract information and
+                                insights contained in the documents as well as categorize and organize the documents
+                                themselves.
+                            </p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Natural_language_processing"
+                                class="btn mt-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body ">
+                            <h5 class="card-title">Artificial Intelligence (AI)</h5>
+                            <p class="card-text">Artificial intelligence (AI) is intelligence demonstrated by machines,
+                                as opposed to the natural intelligence displayed by humans or animals. Leading AI
+                                textbooks define the field as the study of "intelligent agents": any system that
+                                perceives its environment and takes actions that maximize its chance of achieving its
+                                goals.Some popular accounts use the term "artificial intelligence" to describe
+                                machines that mimic "cognitive" functions that humans associate with the human mind,
+                                such as "learning" and "problem solving", however this definition is rejected by major
+                                AI researchers.
+                            </p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Artificial_intelligence"
+                                class="btn mt-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Computer Vision</h5>
+                            <p class="card-text">Computer vision is an interdisciplinary scientific field that deals
+                                with how computers can gain high-level understanding from digital images or videos. From
+                                the perspective of engineering, it seeks to understand and automate tasks that the human
+                                visual system can do.
+                            </p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Computer_vision"
+                                class="btn mt-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="Education" class="container-fluid">
+            <div class="row About"
+                style="background-image: url('./asset/img/background-header-technology.jpg'); color: white;">
+                <div class="col-md-12 text-center">
+                    <br>
+                    <br>
+                    <h1>Education</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-2">
+                    2019-Present
+                </div>
+                <div class="col-md-10">
+                    <p>
+                        MSc student of Computer Science
+                        Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran.
+                        <br>
+                        <b>Thesis title:</b> Firefighting with autonomous UAVs using deep reinforcement learning
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                    2014-2018
+                </div>
+                <div class="col-md-10">
+                    <p>
+                        BSc student of Information Technology (IT)<br>
+                        Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="Courses" class="container-fluid">
+            <div class="row About"
+                style="background-image: url('./asset/img/background-header-technology.jpg'); color: white;">
+                <div class="col-md-12 text-center">
+                    <br>
+                    <br>
+                    <h1>Relevant graduate courses passed</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <table id="course-table" class="table table-light">
+                        <thead>
+                            <tr>
+                                <th scope="col">Course name</th>
+                                <th scope="col">Reference Book</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Multi agent systems</td>
+                                <td>An introduction to multiagent systems - Michael Wooldridge. — 2nd ed</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <td>Deep Learning</td>
+                                <td>Deep Learning - Ian Goodfellow and Yoshua Bengio and Aaron Courville 2016</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <td>Computer Vision</td>
+                                <td>Feature Extraction and Image Processing Second edition - Mark S. Nixon</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</td>
+                                <td>Pattern Recognition and Machine Learning - Christopher M. Bishop</td>
+                                <td>2019</td>
+                            </tr>
+                            <tr>
+                                <td>Fundamental of Data Mining</td>
+                                <td>Data Mining Concepts and Techniques Third Edition - Jiawei Han</td>
+                                <td>2019</td>
+                            </tr>
+                            <tr>
+                                <td>Natural language process</td>
+                                <td>An Introduction to Natural Language Processing, Computational Linguistics,
+                                    and Speech Recognition - Daniel Jurafsky</td>
+                                <td>2019</td>
+                            </tr>
+                            <tr>
+                                <td>Web development</td>
+                                <td>w3schools.com</td>
+                                <td>2017</td>
+                            </tr>
+                            <tr>
+                                <td>Advanced Programming</td>
+                                <td>Programming: Principles and Practice Using C++ Second Edition - Bjarne Stroustrup
+                                </td>
+                                <td>2015</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <div id="Experience" class="container-fluid">
+            <div class="row About"
+                style="background-image: url('./asset/img/background-header-technology.jpg'); color: white;">
+                <div class="col-md-12 text-center">
+                    <br>
+                    <br>
+                    <h1>Relevant skills and experiences</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>Computer Skills</h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Programming languages</h5>
+                            <p class="card-text">
+                                C++ (expert)<br>
+                                Python (expert)<br>
+                                JavaScript (experienced)<br>
+                                Java (good knowledge)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Front-End</h5>
+                            <p class="card-text">
+                                Html, CSS, JavaScript (experienced)<br>
+                                Bootstrap (experienced)<br>
+                                jQuery (experienced)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Back-End</h5>
+                            <p class="card-text">
+                                Node.JS (experienced)<br>
+                                PHP (experienced)<br>
+                                XAMP (experienced)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Databases</h5>
+                            <p class="card-text">
+                                MongoDB (good knowledge)<br>
+                                MySQL (experienced)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Scientific software</h5>
+                            <p class="card-text">
+                                MATLAB (experienced)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Databases</h5>
+                            <p class="card-text">
+                                Linux <br>
+                                Windows
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-dark bg-light text-center h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Others</h5>
+                            <p class="card-text">
+                                LaTeX (good knowledge)<br>
+                                Heroku (good knowledge)<br>
+                                Git (experienced)<br>
+                                TensorFlow (experienced)<br>
+                                NumPy, SciPy, Keras, and PyTorch libraries in python<br>
+                                Express JS and mongoose libraries in Node.JS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>Attendences</h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <ul>
+                    <li>Fifth IPM Advanced School On Computing & Artificial Intelligence(5-8 SEP 2021)</li>
+                    <li>PyTorch Workshop(4-7 SEP 2021, Computer Science Department, IASBS)</li>
+                </ul>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>Teaching</h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <ul>
+                    <li>TA to Multi agent system course (winter 2021, Computer Science Department, IASBS)</li>
+                    <li>TA to Advanced programming (spring 2017, Computer Science Department, IASBS)</li>
+                    <li>TA to Basic programming (fall 2015, Computer Science Department, IASBS)</li>
+                </ul>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>Languages</h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <ul>
+                    <li>Persian: Native</li>
+                    <li>Azari: Native</li>
+                    <li>English: Intermidate</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="Contact" class="container-fluid">
+            <div class="row About"
+                style="background-image: url('./asset/img/background-header-technology.jpg'); color: white;">
+                <div class="col-md-12 text-center">
+                    <br>
+                    <br>
+                    <h1>Contact</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <ul id="contact-icon">
+                    <li><a target="_blank" href="https://github.com/rezashami"><i class="fab fa-github fa-3x"></i></a>
+                    </li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/reza-tanha-112807110"><i
+                                class="fab fa-linkedin fa-3x"></i> </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
 </body>
+
 </html>

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #353535;
+    color: white;
+}
+#header-ul{
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+.header-ul-li{
+    display: inline-block;
+}
+.header-ul-li a{
+    margin: 5px;
+}
+.header-ul-li a:hover {
+    background-color: #111111;
+}
+.brief{
+    margin-top: 80px;
+}
+.topic{
+    background-color: #D5DCE4;
+}
+.About {
+    height: 250px;
+}
+
+#myNavbar ul li a {
+    color: white;
+}
+#contact-icon li{
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+}
+
