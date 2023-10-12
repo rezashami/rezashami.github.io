@@ -2,18 +2,11 @@
 $(function () {
   'use strict'
   // FANCY BOX
-  $(".fancybox").fancybox({
-    openEffect: "none",
-    closeEffect: "none"
+
+  Fancybox.bind("[data-fancybox]", {
+    // Your custom options
   });
 
-  $(".zoom").hover(function () {
-
-    $(this).addClass('transition');
-  }, function () {
-
-    $(this).removeClass('transition');
-  });
 
   // MENU
   $('.navbar .nav-link').on('click', function () {
